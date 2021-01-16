@@ -6,3 +6,10 @@ def get_pet_shop_name(store):
 
 def get_total_cash(store):
     return store["admin"]["total_cash"]
+
+
+def add_or_remove_cash(store, cash):
+    store["admin"]["total_cash"] = store["admin"]["total_cash"] + cash
+        
+     
+     
